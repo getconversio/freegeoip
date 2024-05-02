@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl --insecure -o ~/GeoLite2-City.mmdb.tar.gz ${MAXMIND_DB}
+curl --insecure -L -o ~/GeoLite2-City.mmdb.tar.gz ${MAXMIND_DB}
 
 tar xvfz ~/GeoLite2-City.mmdb.tar.gz
 
